@@ -2,7 +2,6 @@
   <head>
     <title>Ejemplo tiempo</title>
     <script src="js/jquery.min.js"></script>
-    <script src="./js/fetch.js"></script>
     <script src="./js/llamado.js"></script>
     <link
       rel="stylesheet"
@@ -26,9 +25,23 @@
     <script src="./js/llamado.js"></script>
 
     <link rel="stylesheet" href="./css/app.css" />
+    
   </head>
   <body>
-    <script></script>
+    <script>
+    const url = "http://worldtimeapi.org/api/timezone/";
+var str = "";
+var lista = [];
+var zona;
+
+fetch(url)
+  .then((response) => response.json())
+  .then((data) => {
+    for (const product of data) {
+      lista.push(product);
+    }
+  });
+    </script>
 
     <div class="caja" id="ListaZonas">
       <form action="#" onsubmit="zonas()">
