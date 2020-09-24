@@ -1,0 +1,51 @@
+body {
+  background-color: #f49c76;
+}
+.caja {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+#ListaZonas {
+  background-color: #fff;
+  padding: 30px;
+  margin-top: 30px;
+  border-radius: 15px;
+}
+#consulta {
+  background-color: #f5f6f7;
+  border: none;
+  border-radius: 10px;
+  font-size: 10px;
+  padding: 10px;
+  width: 220px;
+  color: #c0c4c7;
+}
+.badge-light {
+  color: #212529;
+  background-color: #f5f6f7;
+  padding: 18px;
+  border-radius: 55px;
+}
+.sidebar {
+  -ms-flex: 0 0 5px;
+  flex: 0 0 5px;
+}
+.lineas {
+  margin: 10px 0;
+}
+.twelve {
+  font-size: 12px;
+}
+.dia,
+.noche {
+  padding: 5px;
+}
+.dia {
+  background-color: #f5f6f7;
+  color: #868c93;
+}
+.noche {
+  background-color: #323d48;
+  color: #fff;
+}
